@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="400,359">
+    <Default shared="true" name="CheckBox" value="disabledtextcolor=&quot;#FFbac0c5&quot; textpadding=&quot;20,2,0,0&quot; align=&quot;left&quot; selectedimage=&quot;file='checked.png' dest='0,2,16,18'&quot; normalimage=&quot;file='unchecked.png' dest='0,2,16,18'&quot;" />
+    <VerticalLayout bkimage="file='tishi_bg.png'">
+        <HorizontalLayout height="20">
+            <VerticalLayout />
+            <VerticalLayout width="43">
+                <Button name="btnClose" tooltip="关闭" float="true" pos="0,1,0,1" width="42" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;close_normal.png&apos; " hotimage=" file=&apos;close_hover.png&apos; " pushedimage=" file=&apos;close_pressed.png&apos; " />
+            </VerticalLayout>
+        </HorizontalLayout>
+        
+        <VerticalLayout height="80">
+            <HorizontalLayout height="20" />
+            <HorizontalLayout>
+                <VerticalLayout />
+                <VerticalLayout width="300">
+                    <Text name="info" text="应用程序发生未知错误，我们对此引起的不便表示道歉，我们已经产生了一个关于此错误的报告，希望你选择发送此报告给我们以帮助改善应用程序的质量" width="300" height="100" mouse="false" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="18" align="wrap" />
+                </VerticalLayout>
+                <VerticalLayout />
+            </HorizontalLayout>
+        </VerticalLayout>
+        
+        <VerticalLayout bkcolor="#FFD4EEF7">
+            <HorizontalLayout>
+                <VerticalLayout />
+                <VerticalLayout width="300">
+                    <CheckBox text="发送错误报告" width="300"/>
+                </VerticalLayout>
+                <VerticalLayout />
+            </HorizontalLayout>
+
+            <HorizontalLayout>
+                <VerticalLayout />
+                <VerticalLayout width="300">
+                    <CheckBox text="重启应用程序" width="300"/>
+                </VerticalLayout>
+                <VerticalLayout />
+            </HorizontalLayout>
+            
+            <HorizontalLayout>
+                <VerticalLayout />
+                <VerticalLayout width="300">
+                    <Label text="这个问题是怎么出现的？" width="300"/>
+                </VerticalLayout>
+                <VerticalLayout />
+            </HorizontalLayout>
+        </VerticalLayout>
+        
+        <VerticalLayout height="120" bkcolor="#FFD4EEF7">
+            <HorizontalLayout height="120">
+                <VerticalLayout />
+                <VerticalLayout width="300">
+                    <Edit height="120" align="top" focusbordercolor="#ffff0000"/>
+                </VerticalLayout>
+                <VerticalLayout />
+            </HorizontalLayout>
+        </VerticalLayout>
+        
+        <VerticalLayout height="40">
+            <Button name="btnOk" float="true" pos="253,7,320,7" width="97" height="28" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;ok_normal.png&apos;" hotimage="file=&apos;ok_pressed.png&apos;" pushedimage="file=&apos;ok_pressed.png&apos;" />
+        </VerticalLayout>
+    </VerticalLayout>
+</Window>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="574,369" caption="0,0,0,36" roundcorner="9,9" >
+    <VerticalLayout name="bg"  inset="4,0,4,4" bkimage="file='tishi_bg.png' corner='4,48,4,4' " >
+        <HorizontalLayout height="32">
+            <Label  width="155" />
+            <Control />
+            <!-- <Button name="minbtn" width="42" maxheight="18" tooltip="最小化" normalimage="file='xiaohua.png' mask='#FFFF00FF'" hotimage="file='xiaohua_pressed.png' mask='#FFFF00FF'" pushedimage="file='xiaohua_pressed.png' mask='#FFFF00FF'"/> -->
+            <Button name="closebtn" width="42" maxheight="19" tooltip="关闭" normalimage="file='close_normal.png' mask='#FFFF00FF'" hotimage="file='close_hover.png' mask='#FFFF00FF'" pushedimage="file='close_pressed.png' mask='#FFFF00FF'"/>
+        </HorizontalLayout>
+        <Container>
+            <Text name= "info" text="应用程序发生未知错误" align="left" pos="80,80,300,300" mouse="false"/>
+            <!--
+            <VerticalLayout>
+                <Label name="LabelUI4" text="复选框：" float="true" pos="0,0,21,17" width="60" height="30" textcolor="#00800080" disabledtextcolor="#FFA7A6AA" />
+                <Option name="OptionUI4" text="复选框１" float="true" pos="0,0,117,22" width="101" height="18" textcolor="#00800000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;check_un.png&apos; dest=&apos;0,0,20,20&apos;" selected="true" selectedimage="file=&apos;check_sel.png&apos; dest=&apos;0,0,20,20&apos;" />
+                <Option name="OptionUI5" text="复选框２" float="true" pos="0,0,241,21" width="101" height="18" textcolor="#00000080" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;check_un.png&apos; dest=&apos;0,0,20,20&apos;" selectedimage="file=&apos;check_sel.png&apos; dest=&apos;0,0,20,20&apos;" />
+            </VerticalLayout>
+            -->
+            <VerticalLayout>
+                <CheckBox name="CheckBox1" width="20" height="20"  />
+                <CheckBox name="CheckBox2" width="20" height="20"  />
+                <Button name="btnOk"  float="true" pos="330, 295, 423, 323" normalimage="file='ok_normal.png' mask='#FFFF00FF'" hotimage="file='ok_pressed.png' mask='#FFFF00FF'" pushedimage="file='ok_pressed.png' mask='#FFFF00FF'"/>
+            </VerticalLayout>
+        </Container>
+    </VerticalLayout>
+</Window>
